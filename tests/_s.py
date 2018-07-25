@@ -25,8 +25,8 @@ import os
 import socket
 
 from mimetools import Message
-from cStringIO import StringIO
-from SocketServer import StreamRequestHandler, ThreadingTCPServer, \
+from io import StringIO
+from socketserver import StreamRequestHandler, ThreadingTCPServer, \
     ThreadingUnixStreamServer
 
 

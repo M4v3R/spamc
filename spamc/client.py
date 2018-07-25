@@ -39,7 +39,7 @@ PROTOCOL_VERSION = 'SPAMC/1.5'
 
 def _check_action(action):
     """check for invalid actions"""
-    if isinstance(action, types.StringTypes):
+    if isinstance(action, str):
         action = action.lower()
 
     if action not in ['learn', 'forget', 'report', 'revoke']:
@@ -110,7 +110,7 @@ def get_response(cmd, conn):
     if cmd == 'HEADERS':
         parser = Parser()
         headers = parser.parsestr('\r\n'.join(lines[4:]), headersonly=True)
-        for key in headers.keys():
+        for key in list(headers.keys()):
             resp_dict['headers'][key] = headers[key]
     return resp_dict
 
@@ -209,7 +209,7 @@ class SpamC(object):
 
                 headers = self.get_headers(cmd, msg_length, extra_headers)
 
-                if isinstance(msg, types.StringTypes):
+                if isinstance(msg, str):
                     if self.gzip and msg:
                         msg = compress(msg + '\r\n', self.compress_level)
                     else:
@@ -313,7 +313,7 @@ class SpamC(object):
 
     def learn(self, msg, learnas):
         """Learn message as spam/ham or forget"""
-        if not isinstance(learnas, types.StringTypes):
+        if not isinstance(learnas, str):
             raise SpamCError('The learnas option is invalid')
         if learnas.lower() == 'forget':
             resp = self.tell(msg, 'forget')
