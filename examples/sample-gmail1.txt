@@ -1,0 +1,655 @@
+Delivered-To: maciej.trebacz@gmail.com
+Received: by 2002:a9d:19e6:0:0:0:0:0 with SMTP id k93-v6csp5357300otk;
+        Tue, 26 Jun 2018 09:49:28 -0700 (PDT)
+X-Google-Smtp-Source: AAOMgpcP0LRM8/MBV3FVofFzjIYKURS3WiIIr8Ym2FEE6ZSekWxCYo693NXeOYmEWhTFX2pLqX+j
+X-Received: by 2002:a1c:8789:: with SMTP id j131-v6mr2140221wmd.147.1530031768812;
+        Tue, 26 Jun 2018 09:49:28 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1530031768; cv=none;
+        d=google.com; s=arc-20160816;
+        b=0diqxieZJbXPZFiDtzsA8GZmM4Qokupkn9Qamqth8j0ckTPYF583xF1s0STi2eeDYJ
+         JtGYBzbl/kYuRj6lXL2Kd48R7AasZt1PHedbigXxkW8Ds5z7xEQr6AwVOcgI/Fp/J5Kd
+         eDrS4xH0N+/sRLwEBeSK1QLs6Mb+2sO8qJFhQkiHq1yWZ7pgCD9rTw8e2EPJJYebzStM
+         4JSE7a5/LkGNdN3OxsunCIEFq/oq7f4be2lVCauAEqNH0r8/dmwz/uf2uHFjK1xYpVE8
+         UxW3EA5mpK94QLb+skZzEEv92lYplCMUTSkX8OMGBTnfU/vET9YjKidIoAqe0DlhzDxM
+         T2hA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:list-id:list-unsubscribe:precedence:mime-version:to
+         :reply-to:from:subject:date:message-id:dkim-signature
+         :arc-authentication-results;
+        bh=YqWK7jLMjJozdiVi0Lk2MCHuz3z8XxgUpC36ynomZ44=;
+        b=QXtARJSxlDUY/A5DeYbKEaFDGCOYu3JBf+Rm6gtqufFMXMoG63iyoSYJpWow+jXPVE
+         LiG1YczUUTXJuwFsAr5ThWEYfQduC9BG8oSoVqIKbN4dVv+Y6895QxslIMOPfnz2Dcmj
+         Io0joaV7kzT/YDivvtz0looLTi5v7KkSVJdp0JZlM0AKr2Vu1PXYJAHYRaCHz2J9m0lE
+         VtWm1TFKVHORFT3PXhL9HuBYI3gxQf996UKxn701YdNUzrclQCz/BtMMux4TZSi/P92R
+         Ck9SiCvo3qPzq0ULJzE6DaO+gS9i6FFsY0/rQrjOgpPFbjsNsHG0z1aMCOC6Kd8XKoGH
+         YkVQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=rcKiWnCD;
+       spf=pass (google.com: domain of 010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com designates 54.240.6.209 as permitted sender) smtp.mailfrom=010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com
+Return-Path: <010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com>
+Received: from a6-209.smtp-out.eu-west-1.amazonses.com (a6-209.smtp-out.eu-west-1.amazonses.com. [54.240.6.209])
+        by mx.google.com with ESMTPS id q187-v6si1945851wma.136.2018.06.26.09.49.27
+        for <maciej.trebacz@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 26 Jun 2018 09:49:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com designates 54.240.6.209 as permitted sender) client-ip=54.240.6.209;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=rcKiWnCD;
+       spf=pass (google.com: domain of 010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com designates 54.240.6.209 as permitted sender) smtp.mailfrom=010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1530031767; h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id:Feedback-ID; bh=3LhckQn7gRMRDBVIZwoEMpT7bqHVCxMTMKsynweIkow=; b=rcKiWnCDJ7o+aAhJv0ekusrzPA/Vx0NfqI/ZjFesw7AM657jT7OOPY2pHhuVj7nI zeM4voayBQGD2c1oUU/bu3IeWvTIo4LpwgoUz9Lti3h3QIKI8UkEeyAJPmHDOHc6hQe rci3fNDM0GfN/eWMP+JOfoGWAJqiCKj7AKofLpcU=
+Message-ID: <010201643cffffe1-5a8e32f0-595d-4518-9f44-5f564e8a771a-000000@eu-west-1.amazonses.com>
+Date: Tue, 26 Jun 2018 16:49:27 +0000
+Subject: World Cup Crypto Betting
+From: Iddaa Skor <info@iddaacanliskor.net>
+Reply-To: Iddaa Skor <info@iddaacanliskor.net>
+To: "maciej.trebacz@gmail.com" <maciej.trebacz@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_=_swift_v4_1530031767_dca8a6835fc8bdf0094160fb0f700441_=_"
+X-Sender: reply@iddaacanliskor.net
+X-Report-Abuse: Please report abuse for this campaign here: http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/report-abuse/jt316bd8fa74f/xm246rk434de5
+X-Receiver: maciej.trebacz@gmail.com
+X-Mw-Tracking-Did: 0
+X-Mw-Subscriber-Uid: xm246rk434de5
+X-Mw-Mailer: SwiftMailer - 5.4.x
+X-Mw-EBS: http://www.iddaacanliskor.net/news/index.php/lists/block-address
+X-Mw-Delivery-Sid: 11
+X-Mw-Customer-Uid: th826blv0g053
+X-Mw-Customer-Gid: 0
+X-Mw-Campaign-Uid: bw69878dradc7
+Precedence: bulk
+List-Unsubscribe: <http://www.iddaacanliskor.net/news/index.php/lists/jt316bd8fa74f/unsubscribe/xm246rk434de5/bw69878dradc7/unsubscribe-direct?source=email-client-unsubscribe-button>, <mailto:info@iddaacanliskor.net?subject=Campaign-Uid:bw69878dradc7 / Subscriber-Uid:xm246rk434de5 - Unsubscribe request&body=Please unsubscribe me!>
+List-Id: jt316bd8fa74f <Bitcoin Marketing>
+Feedback-ID: 1.eu-west-1.CMY8uq3kfy+YFeyCRNkuOYX5UJKvpZmVVcNq8s0577s=:AmazonSES
+X-SES-Outgoing: 2018.06.26-54.240.6.209
+
+--_=_swift_v4_1530031767_dca8a6835fc8bdf0094160fb0f700441_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Register with 1xBit in just one click and find fantastic promotions
+for your chance to get great bonuses! Promo code: RUSSIA2018
+If you can't see this message View=C2=A0it=C2=A0in=C2=A0your=C2=A0browser
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/02dc022b88f58767af3dad44225d7d5bf1962730.
+=C2=A0
+SPORTS BETTING WITH CRYPTOCURRENCIES
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+The Best World Cup 2018 Betting Promotions at 1xBit.com
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+From June 14th to July 15th, 2018, millions of football fans around
+the world will be following their teams during the 2018 FIFA World
+Cup. Are you going to bet on your team winning? Or on who will be the
+best goalkeeper of the tournament?
+At 1xBit you=E2=80=99ll find the best wagering options and the highest odds
+for pre-match and live betting. One of the largest and most diverse
+online platforms for cryptocurrency betting on the World Cup is 1xBit,
+which now has new and exciting promotions on offer, in addition to all
+the standard ones.
+1xBit | World Cup 2018 Promotions
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+Register with 1xBit in just one click and find fantastic promotions
+for your chance to get great bonuses! Promo code: _RUSSIA2018_
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+We=E2=80=99re offering a special promo code for Cryptocompare subscribers!
+Just enter the promo code _RUSSIA2018_
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+when registering to receive 125% Bonus
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+on your first deposit up to 1 BTC upon fulfilment of the bonus
+requirements.
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+1xBit has a unique bonus point program for customers. With the
+cashback bonus, users can collect bonus points for all bets they
+place. Bonus points can be exchanged for free bets, free spins in
+bonus games or even funds!
+1xBit World Cup Promotions
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+Increase Your Rating and Get Achievements
+Take part in the exciting achievement-based FIFA World Cup 2018 card
+game. Place bets on the World Cup matches, fulfill the tasks from the
+cards and get valuable prizes! Prizes include bonus points and free
+spins =E2=80=93 available for all players. When you open all cards in a
+section, your level in the casino loyalty program will be
+automatically upgraded =E2=80=93 going up to Gold level!
+Get Lottery Tickets For Each Bet Placed
+The BitCup lottery is the biggest of its kind! Lottery takes place
+between June 13 and July 15. Bet on the 2018 FIFA World Cup with
+stakes of at least 2 mBTC (or the equivalent sum in your account
+currency) and get lottery tickets. The daily prize sum is about 1 BTC
+with the 100 mBTC first prize. The winning ticket will be randomly
+chosen from amongst all tickets released that day. You also have the
+chance to win bonus points and free spins in the Lucky Wheel bonus
+game.
+1xBit World Cup 2018 Tournament
+Even if you=E2=80=99re not normally into sports and know nothing about
+sports betting, you can still get involved in this great football
+event! For those who prefer playing slots, we also have a special
+tournament on offer with themed slots. There is 10 BTC to be shared
+among the winners! Don=E2=80=99t shy away from the greatest event this
+summer! Enjoy bitcoin and altcoin betting with the highest odds at
+1xBit.com!
+Register Now!
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e
+=C2=A0
+Unsubscribe
+http://www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-=
+url/xm246rk434de5/496748c2550c09218338c1af25f9ad306ea719b7
+
+--_=_swift_v4_1530031767_dca8a6835fc8bdf0094160fb0f700441_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8" /><meta name=3D"viewport" content=3D"width=3Ddevice-width" initial-scal=
+e=3D"1.0" user-scalable=3D"yes"><meta http-equiv=3D"X-UA-Compatible" conten=
+t=3D"IE=3Dedge"><meta name=3D"format-detection" content=3D"telephone=3Dno">=
+<meta name=3D"format-detection" content=3D"date=3Dno"><meta name=3D"format-=
+detection" content=3D"address=3Dno"><meta name=3D"format-detection" content=
+=3D"email=3Dno">
+=09<title>The Best World Cup 2018 Promotions</title>
+=09<style type=3D"text/css">body, #bodyTable, #bodyCell, #bodyCell{height:1=
+00% !important; margin:0; padding:0; width:100% !important;font-family:Helv=
+etica, Arial, "Lucida Grande", sans-serif;}
+      table{border-collapse:collapse;}
+      table[id=3DbodyTable] {width:100%!important;margin:auto;max-width:560=
+px!important;color:#7A7A7A;font-weight:normal;}
+      img, a img{border:0; outline:none; text-decoration:none;height:auto; =
+line-height:100%;}
+      a {text-decoration:none !important;}
+      h1, h2, h3, h4, h5, h6{color:#5F5F5F; font-weight:normal; font-family=
+:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spaci=
+ng:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padd=
+ing-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
+
+      .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmai=
+l/Outlook.com to display emails at full width. */
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass=
+ font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Ho=
+tmail/Outlook.com to display line heights normally. */
+      table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spac=
+ing between tables in Outlook 2007 and up. */
+      #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "vie=
+w in browser" message. */
+      img{-ms-interpolation-mode: bicubic;display:block;outline:none; text-=
+decoration:none;} /* Force IE to smoothly render resized images. */
+      body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -web=
+kit-text-size-adjust:100%; font-weight:normal!important;} /* Prevent Window=
+s- and Webkit-based mobile platforms from changing declared text sizes. */
+      .ExternalClass td[class=3D"ecxflexibleContainerBox"] h3 {padding-top:=
+ 10px !important;} /* Force hotmail to push 2-grid sub headers down */
+
+      h1{display:block;font-size:26px;font-style:normal;font-weight:normal;=
+line-height:100%;}
+      h2{display:block;font-size:20px;font-style:normal;font-weight:normal;=
+line-height:120%;}
+      h3{display:block;font-size:17px;font-style:normal;font-weight:normal;=
+line-height:110%;}
+      h4{display:block;font-size:18px;font-style:italic;font-weight:normal;=
+line-height:100%;}
+      .flexibleImage{height:auto;}
+      .linkRemoveBorder{border-bottom:0 !important;}
+      table[class=3DflexibleContainerCellDivider] {padding-bottom:0 !import=
+ant;padding-top:0 !important;}
+
+      body, #bodyTable{background-color:#E1E1E1;}
+      #emailHeader{background-color:#E1E1E1;}
+      #emailBody{background-color:#FFFFFF;}
+      #emailFooter{background-color:#E1E1E1;}
+      .textContent, .textContentLast{color:#8B8B8B; font-family:Helvetica; =
+font-size:16px; line-height:125%; text-align:Left;}
+      .textContent a, .textContentLast a{color:#205478; text-decoration:und=
+erline;}
+      .nestedContainer{background-color:#F8F8F8; border:1px solid #CCCCCC;}
+      .emailButton{background-color:#205478; border-collapse:separate;}
+      .buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; =
+font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+      .buttonContent a{color:#FFFFFF; display:block; text-decoration:none!i=
+mportant; border:0!important;}
+      .emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
+      .emailCalendarMonth{background-color:#205478; color:#FFFFFF; font-fam=
+ily:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding=
+-top:10px; padding-bottom:10px; text-align:center;}
+      .emailCalendarDay{color:#205478; font-family:Helvetica, Arial, sans-s=
+erif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px;=
+ padding-bottom:20px; text-align:center;}
+      .imageContentText {margin-top: 10px;line-height:0;}
+      .imageContentText a {line-height:0;}
+      #invisibleIntroduction {display:none !important;} /* Removing the int=
+roduction text from the view */
+
+      span[class=3Dios-color-hack] a {color:#275100!important;text-decorati=
+on:none!important;} /* Remove all link colors in IOS (below are duplicates =
+based on the color preference) */
+      span[class=3Dios-color-hack2] a {color:#205478!important;text-decorat=
+ion:none!important;}
+      span[class=3Dios-color-hack3] a {color:#8B8B8B!important;text-decorat=
+ion:none!important;}
+      .a[href^=3D"tel"], a[href^=3D"sms"] {text-decoration:none!important;c=
+olor:#606060!important;pointer-events:none!important;cursor:default!importa=
+nt;}
+      .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {text-de=
+coration:none!important;color:#606060!important;pointer-events:auto!importa=
+nt;cursor:default!important;}
+
+      @media only screen and (max-width: 570px){
+        body{width:100% !important; min-width:100% !important;} /* Force iO=
+S Mail to render the email at full width. */
+        table[id=3D"emailHeader"], table[id=3D"emailBody"], table[id=3D"ema=
+ilFooter"], table[class=3D"flexibleContainer"] {width:100% !important;}
+        td[class=3D"flexibleContainerBox"], td[class=3D"flexibleContainerBo=
+x"] table {display: block; margin: 0px auto;}
+        td[class=3D"imageContent"] img {height:auto !important; width:100% =
+!important; max-width:100% !important;}
+        img[class=3D"flexibleImage"]{height:auto !important; width:100% !im=
+portant;max-width:100% !important;}
+        img[class=3D"flexibleImageSmall"]{height:auto !important; width:aut=
+o !important;}
+
+        table[class=3D"flexibleContainerBoxNext"]{padding-top: 10px !import=
+ant;}
+
+        table[class=3D"emailButton"]{width:100% !important;}
+        td[class=3D"buttonContent"]{padding:0 !important;}
+        td[class=3D"buttonContent"] a{padding:15px !important;}
+
+      }
+=09</style>
+=09<!--[if mso 12]>
+      <style type=3D"text/css">
+        .flexibleContainer{display:block !important; width:100% !important;=
+}
+      </style>
+    <![endif]--><!--[if mso 14]>
+      <style type=3D"text/css">
+        .flexibleContainer{display:block !important; width:100% !important;=
+}
+      </style>
+    <![endif]-->
+<style type=3D"text/css">span.preheader{display:none!important;mso-hide:all=
+;}</style></head>
+<body bgcolor=3D"#E1E1E1" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" offset=3D"0" topmargin=3D"0"><span class=3D"preheader" style=3D"disp=
+lay:none!important;mso-hide:all;">Register with 1xBit in just one click and=
+ find fantastic promotions for your chance to get great bonuses! Promo code=
+: RUSSIA2018</span>
+<center style=3D"background-color:#E1E1E1;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" id=
+=3D"bodyTable" style=3D"table-layout: fixed;max-width:100% !important;width=
+: 100% !important;min-width: 100% !important;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center" id=3D"bodyCell" valign=3D"top">
+=09=09=09<table bgcolor=3D"#E1E1E1" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"emailHeader" width=3D"560">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" class=3D"flexibleContainer" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"flexibleContainerCell" val=
+ign=3D"top" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09=09=09<table align=3D"left" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"right" class=3D"f=
+lexibleContainerBox" valign=3D"middle">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"max-width:100%;" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" cl=
+ass=3D"textContent">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:cen=
+ter;line-height:120%;">If you can't see this message <a href=3D"http://www.=
+iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246rk=
+434de5/02dc022b88f58767af3dad44225d7d5bf1962730" style=3D"text-decoration:n=
+one;border-bottom:1px solid #828282;color:#828282;" target=3D"_blank"><span=
+ style=3D"color:#828282;">View=C2=A0it=C2=A0in=C2=A0your=C2=A0browser</span=
+></a>.</div>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:cen=
+ter;line-height:120%;">=C2=A0</div>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"backgro=
+und: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px=
+ 10px; text-align: center;"><span style=3D"color:#c0392b;"><strong>SPORTS B=
+ETTING WITH CRYPTOCURRENCIES</strong></span></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+
+=09=09=09<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"emailBody" width=3D"560">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"flexibleContainer" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"flexibleC=
+ontainerCell" valign=3D"top" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"imageContent" val=
+ign=3D"top"><a href=3D"http://www.iddaacanliskor.net/news/index.php/campaig=
+ns/bw69878dradc7/track-url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d=
+16394e" style=3D"color:#FFFFFF;text-decoration:none;font-family:Helvetica,A=
+rial,sans-serif;font-size:20px;line-height:135%;" target=3D"_blank"><img al=
+t=3D"1xBit: The Best World Cup 2018 Betting Promotions" class=3D"flexibleIm=
+age" src=3D"http://iddaacanliskor.net/news/frontend/assets/files/customer/t=
+h826blv0g053/image2.jpg" style=3D"max-width: 560px; width: 560px; display: =
+block; height: 315px;" title=3D"1xBit: The Best World Cup 2018 Betting Prom=
+otions" /></a></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"flexibleContainer" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"flexibleC=
+ontainerCell" valign=3D"top" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" =
+cellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D=
+"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"textCont=
+ent" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"text-al=
+ign:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-botto=
+m:0;color:#5F5F5F;line-height:135%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: center;"><a href=3D"http://www.iddaacanliskor.net/news/index.php/campaig=
+ns/bw69878dradc7/track-url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d=
+16394e" target=3D"_blank"><strong>The Best World Cup 2018 Betting Promotion=
+s at 1xBit.com</strong></a></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: left;">From June 14th to July 15th, 2018, millions of football fans arou=
+nd the world will be following their teams during the 2018 FIFA World Cup. =
+Are you going to bet on your team winning? Or on who will be the best goalk=
+eeper of the tournament?</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;">At 1xBit you=E2=80=99ll find the best wagering options and the=
+ highest odds for pre-match and live betting. One of the largest and most d=
+iverse online platforms for cryptocurrency betting on the World Cup is 1xBi=
+t, which now has new and exciting promotions on offer, in addition to all t=
+he standard ones.</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: center;"><a href=3D"http://www.iddaacanliskor.net/news/index.php/campaig=
+ns/bw69878dradc7/track-url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d=
+16394e" target=3D"_blank"><strong>1xBit | World Cup 2018 Promotions</strong=
+></a><br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://www=
+.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246r=
+k434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e" target=3D"_blank"><img al=
+t=3D"" data-id=3D"901375" src=3D"http://iddaacanliskor.net/news/frontend/as=
+sets/files/customer/th826blv0g053/sportsbettingtips-news.jpg" style=3D"widt=
+h: 538px; height: 299px;" /></a></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;">Register with 1xBit in just one click and find fantastic promo=
+tions for your chance to get great bonuses! Promo code: <a href=3D"http://w=
+ww.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm24=
+6rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e" target=3D"_blank"><em><=
+strong>RUSSIA2018</strong></em></a></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;">We=E2=80=99re offering a special promo code for Cryptocompare =
+subscribers! Just enter the promo code <a href=3D"http://www.iddaacanliskor=
+.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246rk434de5/aa4b6cf=
+9e35d07d2af2bf21955d629600d16394e" target=3D"_blank"><em><strong>RUSSIA2018=
+</strong></em></a> when registering to receive <a href=3D"http://www.iddaac=
+anliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246rk434de5=
+/aa4b6cf9e35d07d2af2bf21955d629600d16394e" target=3D"_blank"><strong>125% B=
+onus</strong></a> on your first deposit up to 1 BTC upon fulfilment of the =
+bonus requirements.</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p><a href=3D"http://=
+www.iddaacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm2=
+46rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d16394e" target=3D"_blank"><img=
+ alt=3D"" data-id=3D"901381" height=3D"57" id=3D"__mcenew" src=3D"https://w=
+ww.cryptocompare.com/media/33752297/registerbtn.png?width=3D253&amp;height=
+=3D57" style=3D"display: block; margin-left: auto; margin-right: auto;" wid=
+th=3D"253" /></a></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><span style=3D"font-weight: 400;">1xBit has a unique bonus poi=
+nt program for customers. With the cashback bonus, users can collect bonus =
+points for all bets they place. Bonus points can be exchanged for free bets=
+, free spins in bonus games or even funds!</span></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: center;"><a href=3D"http://www.iddaacanliskor.net/news/index.php/campaig=
+ns/bw69878dradc7/track-url/xm246rk434de5/aa4b6cf9e35d07d2af2bf21955d629600d=
+16394e" target=3D"_blank"><strong>1xBit World Cup Promotions</strong></a></=
+p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><strong>Increase Your Rating and Get Achievements</strong></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><span style=3D"font-weight: 400;">Take part in the exciting ac=
+hievement-based FIFA World Cup 2018 card game. Place bets on the World Cup =
+matches, fulfill the tasks from the cards and get valuable prizes! Prizes i=
+nclude bonus points and free spins =E2=80=93 available for all players. Whe=
+n you open all cards in a section, your level in the casino loyalty program=
+ will be automatically upgraded =E2=80=93 going up to Gold level!</span></p=
+>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><strong>Get Lottery Tickets For Each Bet Placed</strong></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><span style=3D"font-weight: 400;">The BitCup lottery is the bi=
+ggest of its kind! Lottery takes place between June 13 and July 15. Bet on =
+the 2018 FIFA World Cup with stakes of at least 2 mBTC (or the equivalent s=
+um in your account currency) and get lottery tickets. The daily prize sum i=
+s about 1 BTC with the 100 mBTC first prize. The winning ticket will be ran=
+domly chosen from amongst all tickets released that day. You also have the =
+chance to win bonus points and free spins in the Lucky Wheel bonus game.</s=
+pan></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><strong>1xBit World Cup 2018 Tournament</strong></p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-alig=
+n: justify;"><span style=3D"font-weight: 400;">Even if you=E2=80=99re not n=
+ormally into sports and know nothing about sports betting, you can still ge=
+t involved in this great football event! For those who prefer playing slots=
+, we also have a special tournament on offer with themed slots. There is 10=
+ BTC to be shared among the winners! Don=E2=80=99t shy away from the greate=
+st event this summer! Enjoy bitcoin and altcoin betting with the highest od=
+ds at 1xBit.com!</span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr style=3D"padding-top:0;">
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"30" cellspaci=
+ng=3D"0" class=3D"flexibleContainer" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"flexibleC=
+ontainerCell" style=3D"padding-top:0;" valign=3D"top" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"emailButton" style=3D"background-color: #2B5A99;"=
+ width=3D"50%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"=
+buttonContent" style=3D"padding-top:15px;padding-bottom:15px;padding-right:=
+15px;padding-left:15px;" valign=3D"middle"><a href=3D"http://www.iddaacanli=
+skor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246rk434de5/aa4=
+b6cf9e35d07d2af2bf21955d629600d16394e" style=3D"color:#FFFFFF;text-decorati=
+on:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:1=
+35%;" target=3D"_blank">Register Now!</a></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<div class=3D"column">=C2=A0</div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+
+=09=09=09<table bgcolor=3D"#E1E1E1" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"emailFooter" width=3D"560">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"flexibleContainer" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"flexibleC=
+ontainerCell" valign=3D"top" width=3D"560">
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" =
+cellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#E1E1E1" valign=
+=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"font-family:Helv=
+etica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-=
+height:120%;"><a data-unsubtag=3D"_UNSUBSCRIBE_URL_" href=3D"http://www.idd=
+aacanliskor.net/news/index.php/campaigns/bw69878dradc7/track-url/xm246rk434=
+de5/496748c2550c09218338c1af25f9ad306ea719b7" style=3D"color: #2ba6cb; text=
+-decoration: none;">Unsubscribe </a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+</center>
+<img width=3D"1" height=3D"1" src=3D"http://www.iddaacanliskor.net/news/ind=
+ex.php/campaigns/bw69878dradc7/track-opening/xm246rk434de5" alt=3D"" />
+</body>
+</html>
+
+--_=_swift_v4_1530031767_dca8a6835fc8bdf0094160fb0f700441_=_--

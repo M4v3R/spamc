@@ -18,6 +18,7 @@
 """Example program using spamc"""
 import os
 import pprint
+import email
 
 from ssl import PROTOCOL_TLSv1
 from optparse import OptionParser
@@ -88,25 +89,27 @@ def runit():
     for test in FILES:
         filename = os.path.join(path, test['name'])
         print("File => %s" % filename)
-        fileobj = open(filename)
+        fileobj = open(filename, 'rb')
+        message = email.message_from_bytes(fileobj.read())
+        emailstr = message.as_string()
         print("=" * 10, "client.check()")
-        pprint.pprint(client.check(fileobj))
-        print("=" * 10, "client.symbols()")
-        pprint.pprint(client.symbols(fileobj))
-        print("=" * 10, "client.report()")
-        pprint.pprint(client.report(fileobj))
-        print("=" * 10, "client.report_ifspam()")
-        pprint.pprint(client.report_ifspam(fileobj))
-        print("=" * 10, "client.process()")
-        pprint.pprint(client.process(fileobj))
-        print("=" * 10, "client.headers()")
-        pprint.pprint(client.headers(fileobj))
-        print("=" * 10, "client.learn()")
-        pprint.pprint(client.learn(fileobj, test['type']))
-        print("=" * 10, "client.tell()")
-        pprint.pprint(client.tell(fileobj, 'forget'))
-        print("=" * 10, "client.revoke()")
-        pprint.pprint(client.revoke(fileobj))
+        pprint.pprint(client.check(emailstr))
+        # print("=" * 10, "client.symbols()")
+        # pprint.pprint(client.symbols(fileobj))
+        # print("=" * 10, "client.report()")
+        # pprint.pprint(client.report(fileobj))
+        # print("=" * 10, "client.report_ifspam()")
+        # pprint.pprint(client.report_ifspam(fileobj))
+        # print("=" * 10, "client.process()")
+        # pprint.pprint(client.process(fileobj))
+        # print("=" * 10, "client.headers()")
+        # pprint.pprint(client.headers(fileobj))
+        # print("=" * 10, "client.learn()")
+        # pprint.pprint(client.learn(fileobj, test['type']))
+        # print("=" * 10, "client.tell()")
+        # pprint.pprint(client.tell(fileobj, 'forget'))
+        # print("=" * 10, "client.revoke()")
+        # pprint.pprint(client.revoke(fileobj))
 
 if __name__ == "__main__":
     runit()

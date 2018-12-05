@@ -1,0 +1,551 @@
+Received: from smtp16.lastmail.net.pl (unknown [10.42.115.41])
+	(using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: vercom@flypsmail.io)
+	by mail-smtp-gw.flyps.io (mail-smtp-gw.flyps.io) with ESMTPSA id
+ 41XDhc50cmz72LG
+	for <bozena833@vp.pl>; Fri, 20 Jul 2018 15:05:20 +0000 (UTC)
+Received: from smtp16.lastmail.net.pl (smtp16.lastmail.net.pl [185.243.30.63])
+From: "MARKO - Ekspert Baby&Kids" <MARKO@parentsadvert.pl> 
+Reply-To: MARKO@parentsadvert.pl
+Date: Fri, 20 Jul 2018 16:25:52 +0200
+Subject: 
+ =?utf-8?B?TmllemFwb21uaWFuYSBwb2Ryw7PFvCB6IGR6aWVja2llbSwgem9iYWN6IGphayE=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_=aspNetEmail=_6de09c57035e4e8c8c143ab745d97f70"
+Precedence: bulk
+List-Unsubscribe: 
+ <http://info.connectmail.net.pl/app/panel/Redirect.aspx?link_id=40BC846A-EFA2-482E-B613-668A3DB17036&mail_id=8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4&d=1A1447F0-A758-4DD5-B47A-2EEC736DCBA1&cntct_id=ehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP&site=aHR0cCUzYSUyZiUyZmluZm8uY29ubmVjdG1haWwubmV0LnBsJTJmYXBwJTJmcGFuZWwlMmZSZWdpc3Rlck91dFBhZ2UuYXNweCUzZm1haWxfaWQlM2QlMjMlMjNtYWlsX2lkJTIzJTIzJTI2YW1wJTNiZCUzZDFBMTQ0N0YwLUE3NTgtNERENS1CNDdBLTJFRUM3MzZEQ0JBMQ%3d%3d>
+Feedback-ID: :106829268:251:net.pl
+X-Sid: 20180720.162552.9976@connectmail.net.pl
+Message-ID: <1x251.106829268.960281278@info.connectmail.net.pl>
+X-Flyps-Batch-Id: <1x251.106829268.960281278@info.connectmail.net.pl>
+To: bozena833@vp.pl
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=flypsmail.io;
+ i=@flypsmail.io; q=dns/txt; s=flyps; t=1532099566; h=to :
+ from : subject : date;
+ bh=MwA8+0XVmdv/g1GBjpVC1T5KK9LVR3+Vuv/XgJ3lUKA=;
+ b=KFLWXKsiN0fmsJ988Xo0uw/v6Hm22i8NuMmTCCLRq63/dmNm9l7c2t4f
+ kYozpEnmxRlBy12x4lF8IRl6TV8ZeaFz7cAVd5Sa5Uaqz2p1GPpp/wxHD5
+ y8hD7c4Jn/fIUeCRulD3HDq+1OdlxpyHu42i3FLTsUVqy7/c3684fzjpo=
+
+--_=aspNetEmail=_6de09c57035e4e8c8c143ab745d97f70
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+ =0Ahttp://info=2Econnectmail=2Enet=2Epl/app/panel/Email=2Easpx?campaign_=
+id=3D18D138AC-9E74-460F-8D2A-046168DE3C79=26mail_id=3D8A3B01E6-496F-40BC-=
+8B5F-2A82E5C28AE4=26d=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=0A=0A http:/=
+/delivery=2Eway2traffic=2Ecom/campaign=3D24074/click/215942/countgo=2Ehtm=
+l?pb=3D14103=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bezpiecznapod=
+roz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailing=26utm_ca=
+mpaign=3Dkampania3 http://delivery=2Eway2traffic=2Ecom/campaign=3D24074/c=
+lick/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp://mark=
+o-baby=2Epl/bezpiecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_me=
+dium=3De-mailing=26utm_campaign=3Dkampania3=23podrozuj_bezpiecznie =0A=0A=
+ http://delivery=2Eway2traffic=2Ecom/campaign=3D24074/click/215942/countg=
+o=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bezpie=
+cznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailing=26=
+utm_campaign=3Dkampania3=23podrozuj_bezpiecznie http://delivery=2Eway2tra=
+ffic=2Ecom/campaign=3D24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D=
+826224=26redir=3Dhttp://marko-baby=2Epl/bezpiecznapodroz/frajda_mamy=2Eht=
+ml?utm_source=3DMrT=26utm_medium=3De-mailing=26utm_campaign=3Dkampania3=23=
+podrozuj_bezpiecznie =0A=0A http://delivery=2Eway2traffic=2Ecom/campaign=3D=
+24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp=
+://marko-baby=2Epl/bezpiecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26=
+utm_medium=3De-mailing=26utm_campaign=3Dkampania3=23podrozuj_wygodnie =0A=
+=0A http://delivery=2Eway2traffic=2Ecom/campaign=3D24074/click/215942/cou=
+ntgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bez=
+piecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailin=
+g=26utm_campaign=3Dkampania3=23podrozuj_wygodnie =0A=0A http://delivery=2E=
+way2traffic=2Ecom/campaign=3D24074/click/215942/countgo=2Ehtml?pb=3D14103=
+=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bezpiecznapodroz/frajda_m=
+amy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailing=26utm_campaign=3Dkam=
+pania3=23podrozuj_wygodnie http://delivery=2Eway2traffic=2Ecom/campaign=3D=
+24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp=
+://marko-baby=2Epl/bezpiecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26=
+utm_medium=3De-mailing=26utm_campaign=3Dkampania3=23podrozuj_wygodnie =0A=
+=0A http://delivery=2Eway2traffic=2Ecom/campaign=3D24074/click/215942/cou=
+ntgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bez=
+piecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailin=
+g=26utm_campaign=3Dkampania3=23podrozuj_wygodnie =0A=0A http://delivery=2E=
+way2traffic=2Ecom/campaign=3D24074/click/215942/countgo=2Ehtml?pb=3D14103=
+=26pc=3D826224=26redir=3Dhttp://marko-baby=2Epl/bezpiecznapodroz/frajda_m=
+amy=2Ehtml?utm_source=3DMrT=26utm_medium=3De-mailing=26utm_campaign=3Dkam=
+pania3=23podrozuj_samodzielnie =0A=0A http://delivery=2Eway2traffic=2Ecom=
+/campaign=3D24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26=
+redir=3Dhttp://marko-baby=2Epl/bezpiecznapodroz/frajda_mamy=2Ehtml?utm_so=
+urce=3DMrT=26utm_medium=3De-mailing=26utm_campaign=3Dkampania3=23podrozuj=
+_samodzielnie http://delivery=2Eway2traffic=2Ecom/campaign=3D24074/click/=
+215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp://marko-bab=
+y=2Epl/bezpiecznapodroz/frajda_mamy=2Ehtml?utm_source=3DMrT=26utm_medium=3D=
+e-mailing=26utm_campaign=3Dkampania3=23podrozuj_samodzielnie =0A=0A Wi=C4=
+=99cej informacji o produktach BeSafe, SmarTrike i toTs znajdziesz na str=
+onie www=2Emarko-baby=2Epl (http://delivery=2Eway2traffic=2Ecom/campaign=3D=
+24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3Dhttp=
+://www=2Emarko-baby=2Epl/?utm_source=3DMrT=26utm_medium=3De-mailing=26utm=
+_campaign=3Dkampania3) =0A=0A http://delivery=2Eway2traffic=2Ecom/campaig=
+n=3D24074/click/215942/countgo=2Ehtml?pb=3D14103=26pc=3D826224=26redir=3D=
+http://www=2Emarko-baby=2Epl/?utm_source=3DMrT=26utm_medium=3De-mailing=26=
+utm_campaign=3Dkampania3 =0A=0AWys=C5=82ano do bazy czas mam na zlecenie:=
+ J=2E Musio=C5=82 PPHU Marko Sp=C3=B3=C5=82ka Jawna, ul=2E Marklowicka 17=
+, Wodzis=C5=82aw =C5=9Al=C4=85ski 44-300, NIP 6470512232=0AJe=C5=9Bli nie=
+ chcesz otrzymywa=C4=87 od nas tego typu korespondencji, kliknij http://i=
+nfo=2Econnectmail=2Enet=2Epl/app/panel/RegisterOutPage=2Easpx?mail_id=3D8=
+A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26d=3D1A1447F0-A758-4DD5-B47A-2EEC736=
+DCBA1 =0A=0A =0D=0A
+
+--_=aspNetEmail=_6de09c57035e4e8c8c143ab745d97f70
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>=0A    <head>=0A        <meta http-equiv=3D=22Content-Type=22 conte=
+nt=3D=22text/html; charset=3Dutf-8=22 />=0A        <style type=3D=22text/=
+css=22>=0A            =2Eimages =7B=0A            width: 100=25 =21import=
+ant;=0A            =7D=0A            a =7B=0A            text-decoration:=
+ none;=0A            =7D=0A        </style>=0A        <base href=3D=22htt=
+ps://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29=
+186/=22 />=0A    </head>=0A    <body style=3D=22background-color: =23ffff=
+ff;=22>=0A        <p style=3D=22font-size: 10px; color: =23000000; text-a=
+lign: center;=22> <a href=3D=22http://info=2Econnectmail=2Enet=2Epl/app/p=
+anel/Redirect=2Easpx?link_id=3D03BDBE59-5A5F-4770-8897-E1839618A5A3=26mai=
+l_id=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26d=3D1A1447F0-A758-4DD5-B47A=
+-2EEC736DCBA1=26cntct_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3Nh=
+MP=26site=3DaHR0cCUzYSUyZiUyZmluZm8uY29ubmVjdG1haWwubmV0LnBsJTJmYXBwJTJmc=
+GFuZWwlMmZFbWFpbC5hc3B4JTNmY2FtcGFpZ25faWQlM2QxOEQxMzhBQy05RTc0LTQ2MEYtOE=
+QyQS0wNDYxNjhERTNDNzklMjZhbXAlM2JtYWlsX2lkJTNkJTIzJTIzbWFpbF9pZCUyMyUyMyU=
+yNmFtcCUzYmQlM2QxQTE0NDdGMC1BNzU4LTRERDUtQjQ3QS0yRUVDNzM2RENCQTE=253d=22>=
+Kliknij je=C5=9Bli wiadomo=C5=9B=C4=87 nie wy=C5=9Bwietla si=C4=99 popraw=
+nie=2E</a> </p>=0A        <table style=3D=22background-color: =23ffffff;=22=
+ width=3D=22100=25=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=
+=220=22 align=3D=22center=22>=0A            <tbody>=0A                <tr=
+>=0A                    <td style=3D=22background-color: =23ffffff; width=
+: 100=25;=22 align=3D=22center=22>=0A                    <table cellspaci=
+ng=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 align=3D=22center=22>=
+=0A                        <tbody>=0A                            <tr>=0A =
+                               <td style=3D=22width: 620px;=22 align=3D=22=
+center=22>=0A                                <table cellspacing=3D=220=22=
+ cellpadding=3D=220=22 border=3D=220=22 align=3D=22center=22>=0A         =
+                           <tbody>=0A                                    =
+    <tr>=0A                                            <td style=3D=22fon=
+t-size: 10px; font-family: Arial, sans-serif; color: =23fbb034; width: 62=
+0px;=22 align=3D=22center=22>=0A                                         =
+   <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redirect/index=2Ep=
+hp?lid=3D3418D33B-B399-410D-93E9-8763967853AD=26mccid=3D8A3B01E6-496F-40B=
+C-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3D=
+WzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb2=
+5AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5Lndhe=
+TJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW=
+50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSU=
+yZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRhX21hbXkuaHRt=
+bCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJTI2dXRtX2Nhb=
+XBhaWduJTNka2FtcGFuaWEz=22 target=3D=22_blank=22 style=3D=22text-decorati=
+on: none; color: =23fbb034;=22><img src=3D=22https://templates=2Emailmadn=
+ess=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_01=2Ejpg=22 style=3D=
+=22display: block; width: 100=25; border-width: 0px; border-style: solid;=
+=22 class=3D=22images=22 alt=3D=22Czas na niezapomnian=C4=85 przygod=C4=99=
+=21 Podr=C3=B3=C5=BCuj z frajd=C4=85 i=2E=2E=2E=22 /></a>=0A             =
+                               </td>=0A                                  =
+      </tr>=0A                                        <tr>=0A            =
+                                <td style=3D=22font-size: 10px; font-fami=
+ly: Arial, sans-serif; color: =23fbb034; width: 620px;=22 align=3D=22cent=
+er=22>=0A                                            <img alt=3D=22=22 sr=
+c=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b904=
+-f6b986a29186/i_02=2Epng=22 style=3D=22display: block; width: 100=25; bor=
+der-width: 0px; border-style: solid;=22 class=3D=22images=22 />=0A       =
+                                     </td>=0A                            =
+            </tr>=0A                                        <tr>=0A      =
+                                      <td style=3D=22font-size: 10px; fon=
+t-family: Arial, sans-serif; color: =23ffffff; background-color: =23fbb03=
+4; width: 620px;=22 align=3D=22center=22>=0A                             =
+               <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redire=
+ct/index=2Ephp?lid=3D5AD3502E-5C2A-4659-A46C-D849DE8B77FD=26mccid=3D8A3B0=
+1E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DC=
+BA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3Dehdidz=
+F1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlb=
+Gl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNT=
+k0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTN=
+kaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRh=
+X21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJ=
+TI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfYmV6cGllY3puaWU=253d=22=
+ target=3D=22_blank=22 style=3D=22text-decoration: none; color: =23ffffff=
+;=22><img src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c=
+7d-4cd5-b904-f6b986a29186/i_03=2Epng=22 style=3D=22display: block; width:=
+ 100=25; border-width: 0px; border-style: solid;=22 class=3D=22images=22 =
+alt=3D=22=2E=2E=2EPODR=C3=93=C5=BBUJ BEZPIECZNIE=21=22 /></a>=0A         =
+                                   </td>=0A                              =
+          </tr>=0A                                        <tr>=0A        =
+                                    <td style=3D=22line-height: 1px; widt=
+h: 620px; height: 2px;=22 align=3D=22center=22>=0A                       =
+                     <img alt=3D=22=22 src=3D=22https://templates=2Emailm=
+adness=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_00=2Epng=22 styl=
+e=3D=22display: block; line-height: 1px; border-width: 0px; border-style:=
+ solid;=22 width=3D=221=22 height=3D=221=22 />=0A                        =
+                    </td>=0A                                        </tr>=
+=0A                                        <tr>=0A                       =
+                     <td style=3D=22background-color: =23fbb034; width: 6=
+20px;=22 align=3D=22center=22>=0A                                        =
+    <table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 a=
+lign=3D=22center=22>=0A                                                <t=
+body>=0A                                                    <tr>=0A      =
+                                                  <td style=3D=22font-siz=
+e: 10px; font-family: Arial, sans-serif; color: =23ffffff; background-col=
+or: =23fbb034; width: 433px;=22 align=3D=22center=22>=0A                 =
+                                       <a href=3D=22http://system=2Econne=
+ctmail=2Enet=2Epl/redirect/index=2Ephp?lid=3D02636597-53CD-44E4-A872-60D4=
+D8786D98=26mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-=
+A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8=
+VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=
+=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMj=
+QwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyU=
+zZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVj=
+em5hcG9kcm96JTJmZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fb=
+WVkaXVtJTNkZS1tYWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dW=
+pfYmV6cGllY3puaWU=253d=22 target=3D=22_blank=22 style=3D=22text-decoratio=
+n: none; color: =23ffffff;=22><img src=3D=22https://templates=2Emailmadne=
+ss=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_05=2Epng=22 style=3D=
+=22display: block; width: 100=25; border-width: 0px; border-style: solid;=
+=22 class=3D=22images=22 alt=3D=22Jeszcze lepszy fotelik=2E W foteliku Be=
+Safe iZi Flex Fix i-Size Twoje dziecko b=C4=99dzie bezpieczne oraz b=C4=99=
+dzie czu=C4=87 si=C4=99 komfortowo podczas ka=C5=BCdej, nawet najd=C5=82u=
+=C5=BCszej podr=C3=B3=C5=BCy - ZOBACZ WI=C4=98CEJ=22 /></a>=0A           =
+                                             </td>=0A                    =
+                                    <td style=3D=22font-size: 10px; font-=
+family: Arial, sans-serif; color: =23ffffff; background-color: =23fbb034;=
+ width: 187px;=22 align=3D=22center=22>=0A                               =
+                         <a href=3D=22http://system=2Econnectmail=2Enet=2E=
+pl/redirect/index=2Ephp?lid=3DDB18D0B4-6792-43CD-96E8-AFB9D2842DAA=26mcci=
+d=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-=
+2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=
+=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUy=
+ZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGlja=
+yUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNn=
+JlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJ=
+mZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1t=
+YWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfYmV6cGllY3pua=
+WU=253d=22 target=3D=22_blank=22 style=3D=22text-decoration: none; color:=
+ =23ffffff;=22><img alt=3D=22=22 src=3D=22https://templates=2Emailmadness=
+=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_06=2Ejpg=22 style=3D=22=
+display: block; width: 100=25; border-width: 0px; border-style: solid;=22=
+ class=3D=22images=22 /></a>=0A                                          =
+              </td>=0A                                                   =
+ </tr>=0A                                                </tbody>=0A     =
+                                       </table>=0A                       =
+                     </td>=0A                                        </tr=
+>=0A                                        <tr>=0A                      =
+                      <td style=3D=22line-height: 1px; width: 620px; heig=
+ht: 2px;=22 align=3D=22center=22>=0A                                     =
+       <img alt=3D=22=22 src=3D=22https://templates=2Emailmadness=2Epl/35=
+524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_00=2Epng=22 style=3D=22display=
+: block; line-height: 1px; border-width: 0px; border-style: solid;=22 wid=
+th=3D=221=22 height=3D=221=22 />=0A                                      =
+      </td>=0A                                        </tr>=0A           =
+                             <tr>=0A                                     =
+       <td style=3D=22font-size: 10px; font-family: Arial, sans-serif; co=
+lor: =23ffffff; background-color: =23a6ce39; width: 620px;=22 align=3D=22=
+center=22>=0A                                            <a href=3D=22htt=
+p://system=2Econnectmail=2Enet=2Epl/redirect/index=2Ephp?lid=3D822B2375-C=
+FB1-446B-B0DB-8E7F0C29E93F=26mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=
+=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDM=
+Y=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZe=
+F1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUy=
+ZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJ=
+TNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYn=
+kucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2U=
+lM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFu=
+aWEzJTIzcG9kcm96dWpfd3lnb2RuaWU=253d=22 target=3D=22_blank=22 style=3D=22=
+text-decoration: none; color: =23ffffff;=22><img src=3D=22https://templat=
+es=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_08=2Ep=
+ng=22 style=3D=22display: block; width: 100=25; border-width: 0px; border=
+-style: solid;=22 class=3D=22images=22 alt=3D=22=2E=2E=2EPODR=C3=93=C5=BB=
+UJ WYGODNIE=21=22 /></a>=0A                                            </=
+td>=0A                                        </tr>=0A                   =
+                     <tr>=0A                                            <=
+td style=3D=22line-height: 1px; width: 620px; height: 2px;=22 align=3D=22=
+center=22>=0A                                            <img alt=3D=22=22=
+ src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b=
+904-f6b986a29186/i_00=2Epng=22 style=3D=22display: block; line-height: 1p=
+x; border-width: 0px; border-style: solid;=22 width=3D=221=22 height=3D=22=
+1=22 />=0A                                            </td>=0A           =
+                             </tr>=0A                                    =
+    <tr>=0A                                            <td style=3D=22bac=
+kground-color: =23a6ce39; width: 620px;=22 align=3D=22center=22>=0A      =
+                                      <table cellspacing=3D=220=22 cellpa=
+dding=3D=220=22 border=3D=220=22 align=3D=22center=22>=0A                =
+                                <tbody>=0A                               =
+                     <tr>=0A                                             =
+           <td style=3D=22background-color: =23a6ce39; width: 433px;=22 a=
+lign=3D=22center=22>=0A                                                  =
+      <table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22=
+ align=3D=22center=22>=0A                                                =
+            <tbody>=0A                                                   =
+             <tr>=0A                                                     =
+               <td style=3D=22font-size: 10px; font-family: Arial, sans-s=
+erif; color: =23ffffff; background-color: =23a6ce39; width: 433px;=22 ali=
+gn=3D=22center=22>=0A                                                    =
+                <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redir=
+ect/index=2Ephp?lid=3DCEF5A184-D35F-48AB-8C73-EFD869E747FC=26mccid=3D8A3B=
+01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736D=
+CBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3Dehdid=
+zF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRl=
+bGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxN=
+Tk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJT=
+NkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamR=
+hX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5n=
+JTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfd3lnb2RuaWU=253d=22 t=
+arget=3D=22_blank=22 style=3D=22text-decoration: none; color: =23ffffff;=22=
+><img src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4=
+cd5-b904-f6b986a29186/i_10=2Epng=22 style=3D=22display: block; width: 100=
+=25; border-width: 0px; border-style: solid;=22 class=3D=22images=22 alt=3D=
+=22W=C3=B3zek i rowerek w jednym=21=22 /></a>=0A                         =
+                                           </td>=0A                      =
+                                          </tr>=0A                       =
+                                         <tr>=0A                         =
+                                           <td style=3D=22background-colo=
+r: =23a6ce39; width: 433px;=22 align=3D=22center=22>=0A                  =
+                                                  <table cellspacing=3D=22=
+0=22 cellpadding=3D=220=22 border=3D=220=22 align=3D=22center=22>=0A     =
+                                                                   <tbody=
+>=0A                                                                     =
+       <tr>=0A                                                           =
+                     <td style=3D=22font-size: 10px; font-family: Arial, =
+sans-serif; color: =23ffffff; background-color: =23a6ce39; width: 330px;=22=
+ align=3D=22center=22>=0A                                                =
+                                <a href=3D=22http://system=2Econnectmail=2E=
+net=2Epl/redirect/index=2Ephp?lid=3D7560FDED-2D5D-4675-8183-10ED1466F03B=26=
+mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B=
+47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntc=
+t_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUz=
+YSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjb=
+GljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNC=
+UyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm9=
+6JTJmZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNk=
+ZS1tYWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfd3lnb2Rua=
+WU=253d=22 target=3D=22_blank=22 style=3D=22text-decoration: none; color:=
+ =23ffffff;=22><img src=3D=22https://templates=2Emailmadness=2Epl/35524/5=
+7b5f762-2c7d-4cd5-b904-f6b986a29186/i_12=2Epng=22 style=3D=22display: blo=
+ck; width: 100=25; border-width: 0px; border-style: solid;=22 class=3D=22=
+images=22 alt=3D=22ZOBACZ WI=C4=98CEJ=22 /></a>=0A                       =
+                                                         </td>=0A        =
+                                                                        <=
+td style=3D=22font-size: 10px; font-family: Arial, sans-serif; color: =23=
+ffffff; background-color: =23a6ce39; width: 103px;=22 align=3D=22center=22=
+>=0A                                                                     =
+           <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redirect/i=
+ndex=2Ephp?lid=3DA9509CA8-564C-483A-B5EB-DBD1E10BE1C2=26mccid=3D8A3B01E6-=
+496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26=
+mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0M=
+CFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ=
+5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUy=
+ZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0c=
+CUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRhX21hbX=
+kuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJTI2dXR=
+tX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfd3lnb2RuaWU=253d=22 target=3D=
+=22_blank=22 style=3D=22text-decoration: none; color: =23ffffff;=22><img =
+alt=3D=22=22 src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762=
+-2c7d-4cd5-b904-f6b986a29186/i_13=2Ejpg=22 style=3D=22display: block; wid=
+th: 100=25; border-width: 0px; border-style: solid;=22 class=3D=22images=22=
+ /></a>=0A                                                               =
+                 </td>=0A                                                =
+                            </tr>=0A                                     =
+                                   </tbody>=0A                           =
+                                         </table>=0A                     =
+                                               </td>=0A                  =
+                                              </tr>=0A                   =
+                                         </tbody>=0A                     =
+                                   </table>=0A                           =
+                             </td>=0A                                    =
+                    <td style=3D=22font-size: 10px; font-family: Arial, s=
+ans-serif; color: =23ffffff; background-color: =23a6ce39; width: 187px;=22=
+ align=3D=22center=22>=0A                                                =
+        <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redirect/inde=
+x=2Ephp?lid=3D3BFA9864-1764-437F-A19D-CB260179CBA9=26mccid=3D8A3B01E6-496=
+F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26m=
+id=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MC=
+FMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5=
+LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZ=
+mNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cC=
+UzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRhX21hbXk=
+uaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJTI2dXRt=
+X2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfd3lnb2RuaWU=253d=22 target=3D=
+=22_blank=22 style=3D=22text-decoration: none; color: =23ffffff;=22><img =
+alt=3D=22=22 src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762=
+-2c7d-4cd5-b904-f6b986a29186/i_11=2Ejpg=22 style=3D=22display: block; wid=
+th: 100=25; border-width: 0px; border-style: solid;=22 class=3D=22images=22=
+ /></a>=0A                                                        </td>=0A=
+                                                    </tr>=0A             =
+                                   </tbody>=0A                           =
+                 </table>=0A                                            <=
+/td>=0A                                        </tr>=0A                  =
+                      <tr>=0A                                            =
+<td style=3D=22line-height: 1px; width: 620px; height: 2px;=22 align=3D=22=
+center=22>=0A                                            <img alt=3D=22=22=
+ src=3D=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b=
+904-f6b986a29186/i_00=2Epng=22 style=3D=22display: block; line-height: 1p=
+x; border-width: 0px; border-style: solid;=22 width=3D=221=22 height=3D=22=
+1=22 />=0A                                            </td>=0A           =
+                             </tr>=0A                                    =
+    <tr>=0A                                            <td style=3D=22fon=
+t-size: 10px; font-family: Arial, sans-serif; color: =23ffffff; backgroun=
+d-color: =23fbb034; width: 620px;=22 align=3D=22center=22>=0A            =
+                                <a href=3D=22http://system=2Econnectmail=2E=
+net=2Epl/redirect/index=2Ephp?lid=3D07EC96C3-8944-4197-8073-7613E9DD07A2=26=
+mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B=
+47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntc=
+t_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUz=
+YSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjb=
+GljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNC=
+UyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm9=
+6JTJmZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNk=
+ZS1tYWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfc2Ftb2R6a=
+WVsbmll=22 target=3D=22_blank=22 style=3D=22text-decoration: none; color:=
+ =23ffffff;=22><img src=3D=22https://templates=2Emailmadness=2Epl/35524/5=
+7b5f762-2c7d-4cd5-b904-f6b986a29186/i_15=2Epng=22 style=3D=22display: blo=
+ck; width: 100=25; border-width: 0px; border-style: solid;=22 class=3D=22=
+images=22 alt=3D=22=2E=2E=2EPODR=C3=93=C5=BBUJ SAMODZIELNIE=21=22 /></a>=0A=
+                                            </td>=0A                     =
+                   </tr>=0A                                        <tr>=0A=
+                                            <td style=3D=22line-height: 1=
+px; width: 620px; height: 2px;=22 align=3D=22center=22>=0A               =
+                             <img alt=3D=22=22 src=3D=22https://templates=
+=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_00=2Epng=
+=22 style=3D=22display: block; line-height: 1px; border-width: 0px; borde=
+r-style: solid;=22 width=3D=221=22 height=3D=221=22 />=0A                =
+                            </td>=0A                                     =
+   </tr>=0A                                        <tr>=0A               =
+                             <td style=3D=22background-color: =23fbb034; =
+width: 620px;=22 align=3D=22center=22>=0A                                =
+            <table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=22=
+0=22 align=3D=22center=22>=0A                                            =
+    <tbody>=0A                                                    <tr>=0A=
+                                                        <td style=3D=22fo=
+nt-size: 10px; font-family: Arial, sans-serif; color: =23ffffff; backgrou=
+nd-color: =23fbb034; width: 433px;=22 align=3D=22center=22>=0A           =
+                                             <a href=3D=22http://system=2E=
+connectmail=2Enet=2Epl/redirect/index=2Ephp?lid=3DEA051F73-29C5-4C91-BC2A=
+-5D168F18F65D=26mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A14=
+47F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGY=
+Sd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26=
+site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJT=
+NkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZ=
+wYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpw=
+aWVjem5hcG9kcm96JTJmZnJhamRhX21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1d=
+G1fbWVkaXVtJTNkZS1tYWlsaW5nJTI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm=
+96dWpfc2Ftb2R6aWVsbmll=22 target=3D=22_blank=22 style=3D=22text-decoratio=
+n: none; color: =23ffffff;=22><img src=3D=22https://templates=2Emailmadne=
+ss=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b986a29186/i_17=2Epng=22 style=3D=
+=22display: block; width: 100=25; border-width: 0px; border-style: solid;=
+=22 class=3D=22images=22 alt=3D=22M=C3=B3j osobisty baga=C5=BC=2E Tw=C3=B3=
+j maluch jest ju=C5=BC na tyle du=C5=BCy, =C5=BCe chcia=C5=82by spakowa=C4=
+=87 swoj=C4=85 w=C5=82asn=C4=85 walizk=C4=99=2E Dlaczego nie? Teraz jest =
+to mo=C5=BCliwe=21 - ZOBACZ WI=C4=98CEJ=22 /></a>=0A                     =
+                                   </td>=0A                              =
+                          <td style=3D=22font-size: 10px; font-family: Ar=
+ial, sans-serif; color: =23ffffff; background-color: =23fbb034; width: 18=
+7px;=22 align=3D=22center=22>=0A                                         =
+               <a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redire=
+ct/index=2Ephp?lid=3DDB1D9E56-1E0E-4667-9A38-67A69D3233C0=26mccid=3D8A3B0=
+1E6-496F-40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DC=
+BA1=26mid=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3Dehdidz=
+F1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlb=
+Gl2ZXJ5LndheTJ0cmFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNT=
+k0MiUyZmNvdW50Z28uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTN=
+kaHR0cCUzYSUyZiUyZm1hcmtvLWJhYnkucGwlMmZiZXpwaWVjem5hcG9kcm96JTJmZnJhamRh=
+X21hbXkuaHRtbCUzZnV0bV9zb3VyY2UlM2RNclQlMjZ1dG1fbWVkaXVtJTNkZS1tYWlsaW5nJ=
+TI2dXRtX2NhbXBhaWduJTNka2FtcGFuaWEzJTIzcG9kcm96dWpfc2Ftb2R6aWVsbmll=22 ta=
+rget=3D=22_blank=22 style=3D=22text-decoration: none; color: =23ffffff;=22=
+><img alt=3D=22=22 src=3D=22https://templates=2Emailmadness=2Epl/35524/57=
+b5f762-2c7d-4cd5-b904-f6b986a29186/i_18=2Ejpg=22 style=3D=22display: bloc=
+k; width: 100=25; border-width: 0px; border-style: solid;=22 class=3D=22i=
+mages=22 /></a>=0A                                                       =
+ </td>=0A                                                    </tr>=0A    =
+                                            </tbody>=0A                  =
+                          </table>=0A                                    =
+        </td>=0A                                        </tr>=0A         =
+                               <tr>=0A                                   =
+         <td style=3D=22padding-top: 18px; padding-bottom: 10px; font-siz=
+e: 12px; font-family: Arial, sans-serif; color: =236f6c66; line-height: n=
+ormal; background-color: =23ffffff; width: 620px;=22 align=3D=22center=22=
+>=0A                                            Wi=C4=99cej informacji o =
+produktach BeSafe, SmarTrike i=26nbsp;toTs znajdziesz na stronie <a href=3D=
+=22http://system=2Econnectmail=2Enet=2Epl/redirect/index=2Ephp?lid=3D58A9=
+7112-6807-4F19-B304-499AFDD1A736=26mccid=3D8A3B01E6-496F-40BC-8B5F-2A82E5=
+C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzleKhwkXF8SD=
+h1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2V1FG9heDR=
+oVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5LndheTJ0cmFmZmljLm=
+NvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW50Z28uaHRtbCU=
+zZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSUyZiUyZnd3dy5t=
+YXJrby1iYWJ5LnBsJTJmJTNmdXRtX3NvdXJjZSUzZE1yVCUyNnV0bV9tZWRpdW0lM2RlLW1ha=
+WxpbmclMjZ1dG1fY2FtcGFpZ24lM2RrYW1wYW5pYTM=253d=22 target=3D=22_blank=22 =
+style=3D=22text-decoration: none; color: =236f6c66;=22>www=2Emarko-baby=2E=
+pl</a>=0A                                            </td>=0A            =
+                            </tr>=0A                                     =
+   <tr>=0A                                            <td style=3D=22back=
+ground-color: =23ffffff; width: 620px;=22 align=3D=22center=22>=0A       =
+                                     <table cellspacing=3D=220=22 cellpad=
+ding=3D=220=22 border=3D=220=22 align=3D=22center=22>=0A                 =
+                               <tbody>=0A                                =
+                    <tr>=0A                                              =
+          <td style=3D=22font-size: 10px; font-family: Arial, sans-serif;=
+ color: =236f6c66; background-color: =23ffffff; width: 138px;=22 align=3D=
+=22center=22>=0A                                                        <=
+a href=3D=22http://system=2Econnectmail=2Enet=2Epl/redirect/index=2Ephp?l=
+id=3D18EFEEE6-5B2C-4E2C-95A2-81F7A8C75095=26mccid=3D8A3B01E6-496F-40BC-8B=
+5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzle=
+KhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2=
+V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUyZmRlbGl2ZXJ5LndheTJ0c=
+mFmZmljLmNvbSUyZmNhbXBhaWduJTNkMjQwNzQlMmZjbGljayUyZjIxNTk0MiUyZmNvdW50Z2=
+8uaHRtbCUzZnBiJTNkMTQxMDMlMjZwYyUzZDgyNjIyNCUyNnJlZGlyJTNkaHR0cCUzYSUyZiU=
+yZnd3dy5tYXJrby1iYWJ5LnBsJTJmJTNmdXRtX3NvdXJjZSUzZE1yVCUyNnV0bV9tZWRpdW0l=
+M2RlLW1haWxpbmclMjZ1dG1fY2FtcGFpZ24lM2RrYW1wYW5pYTM=253d=22 target=3D=22_=
+blank=22 style=3D=22text-decoration: none; color: =236f6c66;=22><img src=3D=
+=22https://templates=2Emailmadness=2Epl/35524/57b5f762-2c7d-4cd5-b904-f6b=
+986a29186/i_21=2Epng=22 style=3D=22display: block; width: 100=25; border-=
+width: 0px; border-style: solid;=22 class=3D=22images=22 alt=3D=22Marko=22=
+ /></a>=0A                                                        </td>=0A=
+                                                    </tr>=0A             =
+                                   </tbody>=0A                           =
+                 </table>=0A                                            <=
+/td>=0A                                        </tr>=0A                  =
+                  </tbody>=0A                                </table>=0A =
+                               </td>=0A                            </tr>=0A=
+                        </tbody>=0A                    </table>=0A       =
+             </td>=0A                </tr>=0A            </tbody>=0A     =
+   </table>=0A        <img alt=3D=22=22 src=3D=22http://delivery=2Eway2tr=
+affic=2Ecom/campaign=3D24074/view/215942/count=2Egif?pb=3D14103=26pc=3D82=
+6224=26rd=3DTIMESTAMP=22 nochangeurl=3D=221=22 style=3D=22border-width: 0=
+px; border-style: solid;=22 width=3D=221=22 height=3D=221=22 />=0A       =
+ <table width=3D=22600=22 cellspacing=3D=220=22 cellpadding=3D=220=22 bor=
+der=3D=220=22 align=3D=22center=22>=0A            <tbody>=0A             =
+   <tr>=0A                    <td style=3D=22height: 15px;=22>=0A        =
+            </td>=0A                    <td style=3D=22background-color: =
+=23ffffff;=22><center><span style=3D=22font-size: 9px; font-family: Arial=
+; color: =23000000;=22>=0A                    <br />=0A                  =
+  Wys=C5=82ano do bazy czas mam na zlecenie:   J=2E Musio=C5=82 PPHU Mark=
+o Sp=C3=B3=C5=82ka Jawna, ul=2E Marklowicka 17, Wodzis=C5=82aw =C5=9Al=C4=
+=85ski 44-300, NIP 6470512232<br />=0A                    Je=C5=9Bli nie =
+chcesz otrzymywa=C4=87 od nas tego typu korespondencji, kliknij <a href=3D=
+=22http://info=2Econnectmail=2Enet=2Epl/app/panel/Redirect=2Easpx?link_id=
+=3D38F458FB-9C91-4B6C-94C9-4164382EAEFB=26mail_id=3D8A3B01E6-496F-40BC-8B=
+5F-2A82E5C28AE4=26d=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26cntct_id=3De=
+hdidzF1XC0MCFMXb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26site=3DaHR0cCUzYSUyZiUy=
+ZmluZm8uY29ubmVjdG1haWwubmV0LnBsJTJmYXBwJTJmcGFuZWwlMmZSZWdpc3Rlck91dFBhZ=
+2UuYXNweCUzZm1haWxfaWQlM2QlMjMlMjNtYWlsX2lkJTIzJTIzJTI2YW1wJTNiZCUzZDFBMT=
+Q0N0YwLUE3NTgtNERENS1CNDdBLTJFRUM3MzZEQ0JBMQ=253d=253d=22>tutaj=2E</a>=0A=
+                    <br />=0A                    <br />=0A               =
+     </span></center></td>=0A                </tr>=0A            </tbody>=
+=0A        </table>=0A    =0A</html><img alt=3D=22image=22 src=3D=22http:=
+//system=2Econnectmail=2Enet=2Epl/open/index=2Ephp?mccid=3D8A3B01E6-496F-=
+40BC-8B5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=
+=3DWzleKhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFM=
+Xb25AM2V1FG9heDRoVlQZeF1hbHI3NhMP=26div=3D0=22 width=3D=221=22 height=3D=22=
+2=22/><div style=3D=22width:1px;height:2px;background:url(=27http://syste=
+m=2Econnectmail=2Enet=2Epl/open/index=2Ephp?mccid=3D8A3B01E6-496F-40BC-8B=
+5F-2A82E5C28AE4=26did=3D1A1447F0-A758-4DD5-B47A-2EEC736DCBA1=26mid=3DWzle=
+KhwkXF8SDh1UcDMY=26cid=3DCGYSd0B8VloZ=26cntct_id=3DehdidzF1XC0MCFMXb25AM2=
+V1FG9heDRoVlQZeF1hbHI3NhMP=26div=3D1=27)=22></div></body>=0D=0A
+
+--_=aspNetEmail=_6de09c57035e4e8c8c143ab745d97f70--
